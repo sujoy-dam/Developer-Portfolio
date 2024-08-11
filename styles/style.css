@@ -83,6 +83,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin: 0px 200px;
+    padding: 50px 0px;
 }
 
 .nav-title {
@@ -114,6 +115,9 @@ nav li a {
 
 .banner-content {
     max-width: 585px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .banner-greeting {
@@ -126,9 +130,23 @@ nav li a {
     font-weight: 700;
     color: #181818;
 }
+.banner-description{
+    margin: 30px 0px;
+}
 
 .banner-profile-pic {
     width: 584px;
+}
+
+.btn-contact {
+    background-color: rgb(255, 248, 243);
+    border: 1px solid #FD6E0A;
+    padding: 18px 35px;
+    color: #FD6E0A;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-left: 30px;
 }
 
 /* about styles  */
@@ -140,9 +158,13 @@ nav li a {
 
 .about-content {
     text-align: center;
-    background-color: #fff;
+    /* background-color: #fff; */
     border-radius: 12px;
     padding: 0px 10px;
+}
+
+.about-content>p {
+    margin: 30px 0;
 }
 
 .about-items {
@@ -156,6 +178,10 @@ nav li a {
     justify-content: space-between;
     gap: 24px;
     margin-top: 40px;
+}
+
+.skill-title {
+    margin: 25px 0px;
 }
 
 .skill {
@@ -184,12 +210,14 @@ nav li a {
     color: #474747;
     margin-bottom: 30px;
 }
-.experience-title{
+
+.experience-title {
     font-size: 25px;
     font-weight: 700;
     color: #474747;
 }
-.experience-sub-title{
+
+.experience-sub-title {
     font-size: 20px;
     font-weight: 600px;
     color: #757575;
@@ -199,12 +227,51 @@ nav li a {
 .resume-download-btn {
     margin-top: 30px;
 }
-.experience-description{
+
+.experience-description {
     font-size: 16px;
     font-weight: 400;
     color: #757575;
     line-height: 28px;
 }
-.resume hr{
+
+.resume hr {
     margin: 30px 0;
+}
+/* footer styles */
+footer{
+    padding: 130px 0px;
+}
+.footer-container{
+    max-width: 1140px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.footer-column{
+    flex: 1;
+}
+.footer-icon{
+    margin-top: 30px;
+}
+.footer-icon img{
+    margin-right: 20px;
+}
+footer input[type="text"], footer input[type="email"]{
+    height: 64px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 20px 18px;
+    margin-bottom: 24px;
+    display: block;
+}
+footer textarea{
+    display: block;
+    margin-bottom: 24px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 18px;
 }
