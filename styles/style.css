@@ -153,6 +153,11 @@ nav li a {
 .skill{
     /* border: 2px solid red; */
     padding: 15px 20px;
-    box-shadow: 10px 10px 10px gray;
+    box-shadow: 10px 10px 50px gray;
     border-radius: 12px;
+    /* border: 2px solid white; */
+}
+.skills > p{
+    width: 70%;
+    margin: 0px auto;
 }
