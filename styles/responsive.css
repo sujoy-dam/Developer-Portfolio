@@ -1,0 +1,36 @@
+@media screen and (max-width:576px) {
+    .about{
+        padding: 50px 20px;
+    }
+    .about-content >p{
+        text-align: justify;
+    }
+    .about-items{
+        /* display: grid; */
+        /* grid-template-columns: repeat(2, 1fr); */
+        flex-direction: column;
+        gap: 30px;
+    }
+    .skills-container{
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+    .skills>p{
+        width: 100%;
+        padding: 0px 20px;
+        text-align: justify;
+    }
+    .skill>p{
+        text-align: justify;
+    }
+    .resume-container{
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+    footer{
+        padding: 50px 20px;
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+}
