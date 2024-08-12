@@ -1,11 +1,38 @@
 @media screen and (max-width:576px) {
+    .header{
+        background-image: none;
+    }
+    nav ul li{
+        margin: 0px;
+    }
+    .banner{
+        flex-direction: column;
+        margin: 0px;
+        justify-content: center;
+    }
+    .banner-profile-pic{
+        width: 100%;
+    }
+    .banner-content{
+        /* width: 50%; */
+        padding: 20px;
+    }
+    .banner-content div{
+        display: flex;
+        flex-direction:  column;
+        gap: 30px;
+    }
+    .btn-contact{
+        width: 100%;
+        margin: 0;
+    }
     .about{
         padding: 50px 20px;
     }
     .about-content >p{
         text-align: justify;
     }
-    .about-items{
+    .about-items, nav, nav ul{
         /* display: grid; */
         /* grid-template-columns: repeat(2, 1fr); */
         flex-direction: column;
